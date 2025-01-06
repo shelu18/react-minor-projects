@@ -1,5 +1,4 @@
-# Run this command in your terminal
-echo '# React Learning Journey
+
 
 Welcome! This repository is dedicated to my journey of mastering React.js through focused, project-based learning. Here, I explore React concepts by building real-world projects, which can serve as a resource for anyone looking to strengthen their React skills.
 
