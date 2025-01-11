@@ -5,6 +5,8 @@ import Layout from './Layout'
 import Home from './Components/Home/Home.jsx'
 import Contact from './Components/Contact/Contact.jsx'
 import About from './Components/About/About.jsx'
+import Github from './Components/Github/Github.jsx'
+import User from './Components/User/user.jsx'
 import './index.css'
 
 // const router = createBrowserRouter([
@@ -35,6 +37,10 @@ const router =createBrowserRouter(
     <Route path ='' element ={<Home/>}/>
     <Route path ='contact' element ={<Contact/>}/> {/* or ye sare nested wale closing tags hai   */}
     <Route path = 'about' element ={<About/>}/>
+    <Route path='user/:userid' element={<User />} />
+    <Route path = 'Github' element ={<Github/>}/>
+
+
     </Route>
   )
 );
